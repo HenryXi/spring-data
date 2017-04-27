@@ -41,9 +41,9 @@ name is db. For quick start we only save data into database and query them out w
 **The content of application.properties**
 ```ini
 spring.jpa.hibernate.ddl-auto=create
-spring.datasource.url=jdbc:mysql://10.232.56.19:3306/db
-spring.datasource.username=root
-spring.datasource.password=123456
+spring.datasource.url=jdbc:mysql://<YOUR_HOST>:3306/db
+spring.datasource.username=<YOUR_USER_NAME>
+spring.datasource.password=<YOUR_PASSWORD>
 ```
 
 **Application.java**
