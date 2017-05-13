@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-data-quick-start</module>
+        <module>spring-data-keyvalue</module>
     </modules>
 
 </project>
