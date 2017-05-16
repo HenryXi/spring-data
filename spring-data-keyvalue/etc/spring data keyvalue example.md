@@ -65,8 +65,13 @@ public interface PersonRepository extends CrudRepository<Person, Long> {
 ```
 
 Run the main method to start Spring Boot.
+
 Access "http://localhost:8080/spring-data-keyvalue/add?name=henryxi1&chatId=1" to save the data in memory. 
+
 Access "http://localhost:8080/spring-data-keyvalue/all" to get the data. The output is like following.
+
 ```
 [{"id":1995731822,"name":"henryxi1","chatId":1}]
 ```
+
+EOF
